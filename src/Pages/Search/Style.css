@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.big-text {
+font-family: 'Bangers', cursive;
+text-align: center;
+font-size: 8rem;
+margin-top: 8rem;
+}
+p{
+    text-align: center;
+    margin: 0;
+    padding:0;  
+}
+input{
+   
+    margin: 0 auto;
+    width: 50%;
+    height: 40px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
