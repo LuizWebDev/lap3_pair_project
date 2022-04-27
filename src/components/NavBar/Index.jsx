@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
 
 
@@ -8,14 +8,15 @@ import './style.css';
 const NavBar = () => {
 
  
-        // const goBack = useNavigate();
+        const goBack = useNavigate();
      
 
 
     return (
         <nav>
-           <a href='#'>Home</a>
-           <a href='#'>GitSearch</a>
+         <NavLink to="/">Home</NavLink>
+         <NavLink to="/search">Git-Search</NavLink>
+            <button onClick={() => goBack(-1)}>Back</button>
            
         </nav>
     );
